@@ -1,0 +1,104 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 12px;
+}
+body.bg-white {
+  color: #161616;
+  background: #FFFFFF;
+}
+body.bg-white .fork-me {
+  background: url('../images/fork-me-b.png') repeat center;
+}
+body.bg-white .logo span {
+  background: url('../images/bg-b.png') repeat center;
+}
+body.bg-white .logo span strong {
+  background: #FFFFFF;
+}
+body.bg-black {
+  color: #FCFCFC;
+  background: #161616;
+}
+body.bg-black .fork-me {
+  background: url('../images/fork-me-w.png') repeat center;
+}
+body.bg-black .logo span {
+  background: url('../images/bg-w.png') repeat center;
+}
+body.bg-black .logo span strong {
+  background: #161616;
+}
+* {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.fork-me {
+  position: absolute;
+  display: block;
+  text-indent: -10000px;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 1;
+  width: 149px;
+  height: 149px;
+}
+.logo {
+  display: block;
+}
+.logo span,
+.logo strong {
+  display: block;
+  position: absolute;
+}
+.logo span {
+  text-indent: -10000px;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+.logo span strong {
+  top: 32%;
+  left: 32%;
+  right: 32%;
+  bottom: 32%;
+  border-radius: 50%;
+}
+@media all and (max-width: 499px) {
+  .logo span {
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 899px) {
+  .logo span {
+    width: 350px;
+    height: 350px;
+    margin-top: -175px;
+    margin-left: -175px;
+  }
+}
+@media all and (min-width: 900px) and (max-width: 1399px) {
+  .logo span {
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+  }
+}
+@media all and (min-width: 1400px) {
+  .logo span {
+    width: 600px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+  }
+}

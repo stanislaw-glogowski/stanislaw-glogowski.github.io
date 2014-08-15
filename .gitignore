@@ -1,0 +1,6 @@
+/.*
+!.gitattributes
+!.gitignore
+test.js
+node_modules
+Thumbs.db
